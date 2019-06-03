@@ -7,13 +7,13 @@
     <div class="form-group">
       <div class="row">
         <label for="task" class="col-md-2">Task:</label>
-        <input type="text" class="col-md-2" id="task" name="task" [(ngModel)]="task.task" style="background-color:#c4c6cc">
+        <input type="text" class="col-md-3" id="task" name="task" [(ngModel)]="task.task" style="background-color:#c4c6cc">
       </div>
     </div>
     <div class="form-group">
       <div class="row">
         <label for="priority" class="col-md-2">Priority:</label>
-        <div class="col-md-2">
+        <div class="col-md-3">
           <ng5-slider [(value)]="task.priority" [options]="options"></ng5-slider>
         </div>
       </div>
@@ -21,19 +21,19 @@
     <div class="form-group">
       <div class="row">
         <label for="ptask" class="col-md-2">Parent Task:</label>
-        <input type="text" class="col-md-2" id="ptask" name="ptask" [(ngModel)]="task.parent.task" style="background-color:#c4c6cc">
+        <input type="text" class="col-md-3" id="ptask" name="ptask" [(ngModel)]="task.parent.task" style="background-color:#c4c6cc">
       </div>
     </div>
     <div class="form-group">
       <div class="row">
         <label for="sdate" class="col-md-2">Start Date:</label>
-        <input type="date" class="col-md-2" id="sdate" name="sdate" [(ngModel)]="task.startDate" style="background-color:#c4c6cc">
+        <input type="date" class="col-md-3" id="sdate" name="sdate" [(ngModel)]="task.startDate" style="background-color:#c4c6cc">
       </div>
     </div>
     <div class="form-group">
       <div class="row">
         <label for="edate" class="col-md-2">End Date:</label>
-        <input type="date" class="col-md-2" id="edate" name="edate" [(ngModel)]="task.endDate" style="background-color:#c4c6cc">
+        <input type="date" class="col-md-3" id="edate" name="edate" [(ngModel)]="task.endDate" style="background-color:#c4c6cc">
       </div>
     </div>
     <div class="form-group">
