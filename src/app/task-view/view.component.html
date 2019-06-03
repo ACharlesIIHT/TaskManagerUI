@@ -3,19 +3,20 @@
     <div class="row">
       <label for="task" class="col-md-1">Task:</label><br>
       <input type="text" class="col-md-4" id="task" [(ngModel)]="taskname" name="task" style="background-color:#c4c6cc">
-      <label for="ptask" class="col-md-2">Parent Task:</label><br>
+      <label for="ptask" class="col-auto">Parent Task:</label><br>
       <input type="text" class="col-md-4" [(ngModel)]="ptask" name="ptask" style="background-color:#c4c6cc">
     </div>
   </div>
   <div class="form-group">
     <div class="row">
-      <label for="pfrom" class="col-md-2">Priority From:</label><br>
+      <label for="pfrom" class="col-auto">Priority From:</label><br>
       <input type="text" class="col-md-1" [(ngModel)]="pfrom" name="pfrom" style="background-color:#c4c6cc">
-      <label for="pto" class="col-md-1">Priority To:</label><br>
+      <label for="pto" class="col-md-auto">Priority To:</label><br>
       <input type="text" class="col-md-1" [(ngModel)]="pto" name="pto" style="background-color:#c4c6cc">
-      <label for="startdate" class="col-md-1">Start Date:</label><br>
+      <label for="pto" class="col-auto"></label><br>
+      <label for="startdate" class="col-auto">Start Date:</label><br>
       <input type="date" class="col-md-2" [(ngModel)]="startdate" name="startdate" style="background-color:#c4c6cc">
-      <label for="enddate" class="col-md-1">End Date:</label><br>
+      <label for="enddate" class="col-auto">End Date:</label><br>
       <input type="date" class="col-md-2" [(ngModel)]="enddate" name="enddate" style="background-color:#c4c6cc">
     </div>
   </div>
